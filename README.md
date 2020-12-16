@@ -17,12 +17,12 @@
   - **Payload**: { name: String, description: String, price: Float, qty: Integer }
 
 - UPDATE PRODUCT
-  - **Route:** /product/<id>
+  - **Route:** /product/id
   - **Method:** PUT
   - **Payload**: { name: String, description: String, price: Float, qty: Integer }
 
 - DELETE PRODUCT
-  - **Route:** /product/<id>
+  - **Route:** /product/id
   - **Method:** DELETE
   - **Payload**: NONE
 
@@ -32,7 +32,7 @@
   - **Payload**: NONE
 
 - GET SINGLE PRODUCT
-  - **Route:** /product/<id>
+  - **Route:** /product/id
   - **Method:** GET
   - **Payload**: NONE
 
